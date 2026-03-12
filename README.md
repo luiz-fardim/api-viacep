@@ -39,21 +39,9 @@ A API retorna informações como:
 * Manipulação do DOM
 * Tratamento de erros
 
-## ⚙️ Como rodar o projeto
+## 🌐 Live Demo
 
-1. Clone o repositório
-
-```
-git clone https://github.com/seu-usuario/api-viacep
-```
-
-2. Entre na pasta do projeto
-
-```
-cd api-viacep
-```
-
-3. Abra o arquivo `index.html` no navegador.
+https://luiz-fardim.github.io/api-viacep/
 
 ## 📌 Possíveis melhorias
 
