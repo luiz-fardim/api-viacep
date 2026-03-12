@@ -1,52 +1,67 @@
 # 📦 ViaCEP API Project
 
-Projeto simples que consome a API do ViaCEP para buscar informações de endereço a partir de um CEP informado pelo usuário.
+Aplicação simples que consome a API do ViaCEP para buscar informações de endereço a partir de um CEP informado pelo usuário.
 
 ## 🚀 Tecnologias utilizadas
 
-- JavaScript
-- HTML
-- CSS
-- Fetch API
-- API ViaCEP
+* JavaScript
+* HTML
+* CSS
+* Fetch API
 
 ## 🔎 Funcionalidades
 
-- Buscar endereço pelo CEP
-- Consumir API externa
-- Exibir informações na tela
-- Tratamento de erros
+* Buscar endereço a partir de um CEP
+* Consumir dados de uma API externa
+* Exibir informações do endereço na tela
+* Tratamento básico de erros
 
 ## 🌐 API utilizada
 
-Este projeto utiliza a API pública do ViaCEP:
+Este projeto utiliza a API pública do ViaCEP.
 
-https://viacep.com.br/
-
-Exemplo de endpoint:
+Exemplo de requisição:
 
 https://viacep.com.br/ws/01001000/json/
 
-## 📷 Demonstração
+A API retorna informações como:
 
-Digite um CEP e a aplicação retorna:
+* Logradouro
+* Bairro
+* Cidade
+* Estado
 
-- Logradouro
-- Bairro
-- Cidade
-- Estado
+## 🧠 O que foi praticado nesse projeto
 
-## 🧠 O que eu pratiquei nesse projeto
-
-- Consumo de APIs
-- Uso de `fetch()`
-- Promises / async-await
-- Manipulação do DOM
-- Tratamento de erros em requisições
+* Consumo de APIs
+* Uso de `fetch()`
+* Promises e `async/await`
+* Manipulação do DOM
+* Tratamento de erros
 
 ## ⚙️ Como rodar o projeto
 
 1. Clone o repositório
 
-```bash
+```
 git clone https://github.com/seu-usuario/api-viacep
+```
+
+2. Entre na pasta do projeto
+
+```
+cd api-viacep
+```
+
+3. Abra o arquivo `index.html` no navegador.
+
+## 📌 Possíveis melhorias
+
+* Validação de CEP
+* Interface mais estilizada
+* Histórico de buscas
+* Melhor tratamento de erros
+
+## 👨‍💻 Autor
+
+Luiz Fardim
